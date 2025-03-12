@@ -5,12 +5,17 @@ RAG_TTS_Ollama_Edge.py is being used by api.py on a server to run continuously a
 The process is running on port 8001, can be accessed via an ngrok tunnel:
 > TBD
 
-#### Command to run api:
+#### Command to run RAG api:
 After activating the venv on the server (that uses packages in requirements-app.txt)
 uvicorn api:app --host 0.0.0.0 --port 8001
 
-#### Command on server to run ngrok:
+#### Command to run TTS api:
+After activating the venv on the server (that uses packages in requirements-app.txt)
 TBD
+
+#### Command on server to run ngrok:
+#RAG: TBD
+#TTS: TBD
 
 (in case of aut issues:
 ngrok config add-authtoken <authtoken>)
