@@ -14,11 +14,13 @@ After activating the venv on the server (that uses packages in requirements-app.
 TBD
 
 #### Command on server to run ngrok:
-#RAG: TBD
-#TTS: TBD
+##### RAG:
+TBD
+##### TTS: 
+TBD
 
-(in case of aut issues:
-ngrok config add-authtoken <authtoken>)
+(in case of auth issues:
+ngrok config add-authtoken yourauthtoken)
 
 
 ## Deployment info
